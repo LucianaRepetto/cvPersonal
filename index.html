@@ -9,33 +9,58 @@
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="./imgs/favicon.ico" />
     <link href="https://fonts.googleapis.com/css?family=Gudea&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 </head>
 
 <body>
-    <ul>
-        <li><a href="#Hobbies">Hobbies y Conocimientos</a></li>
-        <li><a href="#Experiencia">Experiencia</a></li>
-        <li><a class="active" href="#Sobre">Sobre Mi</a></li>
+    <ul class="navbar">
+        <li class="datos"><a href="#Hobbies">Hobbies y Conocimientos</a></li>
+        <li class="datos"><a href="#Experiencia">Experiencia</a></li>
+        <li class="datos"><a class="active" href="#Sobre">Sobre Mi</a></li>
     </ul>
 
     <div class="imagen">
         <h1>Luciana Repetto</h1>
         <img class="foto" src="./imgs/bella.jpg" alt="Foto Perfil">
     </div>
+
+    <!--Datos Personales-->
     <div class="texto">
         <div class="tarjetas" id="Sobre">
             <h2>Sobre mi</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam quisquam possimus minima tempora
-                recusandae dolore eius rem autem omnis sed nobis maxime vel reprehenderit, officiis, corporis debitis
-                quod aliquam consequuntur?</p>
+            <hr>
+            <i class="material-icons">calendar_today
+            </i>
+            <p>Edad: 30 años</p>
+            <p>Nacionalidad: Argentina</p>
+            <p>Business Intelligence Architect y futura Desarrolladora Web</p>
+            <p>Tecnología y Storytelling </p>
         </div>
+        <!--Experiencia-->
         <div class="tarjetas" id="Experiencia">
             <h2>Experiencia</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis, maiores, fugiat sapiente illum eveniet
-                saepe rerum odio accusantium nulla illo libero nesciunt, debitis maxime? Accusamus dolore tempore error
-                asperiores voluptatem?</p>
+            <hr>
+
+            <h3 class="empresa">Itiers Business Technologies</h3> <img class="logoit" src="/imgs/logoit.png" alt="ItiersBI">
+
+            <ul>
+                <li>Diseño de sistemas para la arquitectura del warehouse</li>
+                <li>Warehousing y ETL</li>
+                <li>Creación de informes y tableros operativos/analíticos. </li>
+            </ul>
+            <p>Herramientas</p>
+
+            <ul>
+                <li>Microstrategy</li>
+                <li>Power Bi</li>
+                <li>Pentaho PDI</li>
+                <li>MySQL / SQL Server</li>
+                <li>GitHub/GitLab</li>
+            </ul>
         </div>
-        <div  id="Hobbies">
+        <!--Hobbies y Conocimientos-->
+        <div id="Hobbies">
             <div class="iconos-hobbies">
                 <h2>Hobbies</h2>
                 <img src="./imgs/favicon.png" alt="leer">
@@ -46,7 +71,7 @@
                 <span style="margin:12px;"></span>
                 <img src="./imgs/netflix.png" alt="netflix">
             </div>
-            <div  class="iconos-conocimientos">
+            <div class="iconos-conocimientos">
                 <h2>Conocimientos</h2>
                 <img src="./imgs/powerbi.png" alt="business intelligence">
                 <span style="margin:12px;"></span>

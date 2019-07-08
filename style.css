@@ -3,7 +3,7 @@ body{
   font-family: 'Gudea', sans-serif;
   background-color: #e8e8e8;
 }
-ul {
+.navbar {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -12,7 +12,7 @@ ul {
   
 }
 
-li {
+.datos {
   float: right;
 }
 
@@ -68,6 +68,10 @@ h2 {
   margin-bottom: 30px;
 }
 
+#Sobre {
+  height: 280px;
+}
+
 .tarjetas {
   width: 95%;
   height: 400px;
@@ -76,6 +80,16 @@ h2 {
   margin-bottom: 30px;
   box-shadow: 10px 10px 5px rgb(187, 186, 186);
   border-radius: 8px;
+}
+
+.empresa{
+  display: inline;
+}
+
+.logoit{
+  
+  width: 50px;
+  height: 30px;
 }
 
 
@@ -107,3 +121,5 @@ footer{
   text-align: center;
   color: #ddd;
 }
+
+
