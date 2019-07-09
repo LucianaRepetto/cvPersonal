@@ -9,17 +9,18 @@
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="./imgs/favicon.ico" />
     <link href="https://fonts.googleapis.com/css?family=Gudea&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
+    <!--Menu-->
     <ul class="navbar">
         <li class="datos"><a href="#Hobbies">Hobbies y Conocimientos</a></li>
         <li class="datos"><a href="#Experiencia">Experiencia</a></li>
         <li class="datos"><a class="active" href="#Sobre">Sobre Mi</a></li>
     </ul>
 
+    <!--Foto y Nombre-->
     <div class="imagen">
         <h1>Luciana Repetto</h1>
         <img class="foto" src="./imgs/bella.jpg" alt="Foto Perfil">
@@ -30,19 +31,21 @@
         <div class="tarjetas" id="Sobre">
             <h2>Sobre mi</h2>
             <hr>
-            <i class="material-icons">calendar_today
-            </i>
             <p>Edad: 30 años</p>
             <p>Nacionalidad: Argentina</p>
-            <p>Business Intelligence Architect y futura Desarrolladora Web</p>
+            <p>Business Intelligence Architect y Desarrolladora Web Jr.</p>
             <p>Tecnología y Storytelling </p>
+            <p class="redes">Redes:</p> 
+            <a href="https://www.linkedin.com/in/luciana-repetto-cirio-202baa113/" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>   <a href="https://github.com/LucianaRepetto?tab=repositories" target="_blank"><i class="fa fa-github-square fa-2x"></i></a>  
+            
         </div>
+
         <!--Experiencia-->
         <div class="tarjetas" id="Experiencia">
             <h2>Experiencia</h2>
             <hr>
 
-            <h3 class="empresa">Itiers Business Technologies</h3> <img class="logoit" src="/imgs/logoit.png" alt="ItiersBI">
+            <h4 class="empresa">Itiers Business Technologies</h4> <a href="https://www.itiers.com/" target="_blank"><img class="logoit" src="/imgs/logoit.png" alt="ItiersBI"></a> 
 
             <ul>
                 <li>Diseño de sistemas para la arquitectura del warehouse</li>
@@ -55,36 +58,49 @@
                 <li>Microstrategy</li>
                 <li>Power Bi</li>
                 <li>Pentaho PDI</li>
-                <li>MySQL / SQL Server</li>
-                <li>GitHub/GitLab</li>
+                <li>SQL</li>
+                <li>Git</li>
             </ul>
+            <h4 class="portfolio" >Portfolio Web</h4>
+           <p> Itiers Business Technologies <a class="icono-web" href="https://www.itiers.com/" target="_blank"><i class="fa fa-external-link-square"></i></a></p> 
+            <p >Capsicum Gourmet <a class="icono-web" href="https://capsicum-gourmet.com/" target="_blank"><i class="fa fa-external-link-square"></i></a></p>
+            
         </div>
+
         <!--Hobbies y Conocimientos-->
         <div id="Hobbies">
             <div class="iconos-hobbies">
+                
                 <h2>Hobbies</h2>
-                <img src="./imgs/favicon.png" alt="leer">
+                
+                <img class="hobbiesyexp" src="./imgs/favicon.png" alt="leer">
                 <span style="margin:12px;"></span>
-                <img src="./imgs/code.png" alt="programar">
+                <img class="hobbiesyexp" src="./imgs/code.png" alt="programar">
                 <span style="margin:12px;"></span>
-                <img src="./imgs/vino.png" alt="bodegas">
+                <img class="hobbiesyexp" src="./imgs/vino.png" alt="bodegas">
                 <span style="margin:12px;"></span>
-                <img src="./imgs/netflix.png" alt="netflix">
+                <img class="hobbiesyexp" src="./imgs/netflix.png" alt="netflix">
+                
             </div>
+           
             <div class="iconos-conocimientos">
+                   
                 <h2>Conocimientos</h2>
-                <img src="./imgs/powerbi.png" alt="business intelligence">
+               
+                <img class="hobbiesyexp" src="./imgs/powerbi.png" alt="business intelligence">
                 <span style="margin:12px;"></span>
-                <img src="./imgs/sql.png" alt="database">
+                <img class="hobbiesyexp" src="./imgs/sql.png" alt="database">
                 <span style="margin:12px;"></span>
-                <img src="./imgs/html.png" alt="web">
+                <img class="hobbiesyexp" src="./imgs/html.png" alt="web">
                 <span style="margin:12px;"></span>
-                <img src="./imgs/google.png" alt="herramientas google">
+                <img class="hobbiesyexp" src="./imgs/google.png" alt="herramientas google">
                 <span style="margin:12px;"></span>
-                <img src="./imgs/english.png" alt="ingles">
+                <img class="hobbiesyexp" src="./imgs/english.png" alt="ingles">
             </div>
         </div>
     </div>
+
+    <!--footer-->
     <footer>
         <p>by Luciana Repetto 2019</p>
     </footer>
