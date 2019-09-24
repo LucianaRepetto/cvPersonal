@@ -1,7 +1,10 @@
 /*Menu*/
+
 body{
   font-family: 'Gudea', sans-serif;
   background-color: #f8f8f8;
+  margin: 0;
+  padding: 0;
 
 }
 .navbar {
@@ -61,7 +64,6 @@ h2 {
 .texto {
   margin-top: 30px;
   padding: 5px;
-  
   width: 75%;
   float: right;
   height: 100%;
@@ -146,9 +148,6 @@ h2 {
 }
 
 
-
-
-
 /*Footer*/
 
 footer{
@@ -160,4 +159,62 @@ footer{
   color: rgb(235, 229, 229);
 }
 
+
+@media(max-width:720px){
+  
+  .datos {
+
+    float: none;
+    font-size: 20px;
+    display: inline-block;
+  }
+
+  .navbar{
+    text-align: center;
+    
+  }
+
+  .imagen {
+    margin-top: 30px;
+    width: 40%;
+    height: 300px;
+    margin-left: 35%;  
+    display: inline-block;
+    
+  }
+
+
+  .texto {
+    margin-top: 30px;
+    padding: 5px;
+    width: 100%;    
+    margin-bottom: 30px;
+  }
+
+  #Sobre{
+    width: 80%;
+   
+    
+  }
+
+  #experiencia{
+    width: 80%;
+ 
+  }
+
+  #Hobbies{
+    width: 80%;
+    height: 300px;
+    
+
+  }
+  .iconos-conocimientos{
+    float: left;
+  }
+
+
+
+
+
+}
 
